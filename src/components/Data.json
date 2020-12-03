@@ -1,0 +1,674 @@
+[
+  {
+    "contents": [
+      {
+        "type": "directory",
+        "name": "1. Stocks & Stock Market Basics",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Introduction.mp4"
+          },
+          {
+            "type": "file",
+            "name": "10. Who sets the price in the stock market.mp4"
+          },
+          {
+            "type": "file",
+            "name": "11. How an IPO is priced.mp4"
+          },
+          {
+            "type": "file",
+            "name": "12. Stock Market Basics Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "13. Stock Market Basics Exercise.html"
+          },
+          {
+            "type": "file",
+            "name": "2. Risk Disclaimer.html"
+          },
+          {
+            "type": "file",
+            "name": "3. Latest Update on the course.html"
+          },
+          {
+            "type": "file",
+            "name": "4. Accounting a Simple Business.mp4"
+          },
+          {
+            "type": "file",
+            "name": "5. What is Stock.mp4"
+          },
+          {
+            "type": "file",
+            "name": "6. Lecture 3 Stock Market & Stock Market Participants.mp4"
+          },
+          {
+            "type": "file",
+            "name": "7. Understanding Primary Market.mp4"
+          },
+          {
+            "type": "file",
+            "name": "8. Understanding IPO & FPO.mp4"
+          },
+          {
+            "type": "file",
+            "name": "9. Secondary Markets.mp4"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "10. Candlesticks Patterns",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Candlesticks Basic Patterns.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Candlesticks Reversal Patterns.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Candlesticks Continuation Patterns.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Candlestick Patterns Quiz.html"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "11. Gap Formations",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Introduction to Gaps.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Gaps that don't matter.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Gaps that matter - Part I.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Gaps that matter - Part II.mp4"
+          },
+          {
+            "type": "file",
+            "name": "5. Gaps Quiz.html"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "12. Support & Resistance Concepts",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Support & Resistance Basics.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Estimating strength of Support or Resistance.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Real Life Example of Support at Work.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Support and Resistance Quiz.html"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "13. Trend Lines & Trend Channels",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Trends & Trend Lines.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Testing Authority of Trend Lines & Identifying Valid Breakouts.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Amending Trendlines.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Trend Line  Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "5. Trend Channels.mp4"
+          },
+          {
+            "type": "file",
+            "name": "6. Trend Channel Quiz.html"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "14. Technical Indicators",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. What are Technical Indicators.mp4"
+          },
+          {
+            "type": "file",
+            "name": "10. Stochastic Oscillator.mp4"
+          },
+          {
+            "type": "file",
+            "name": "11. MACD.mp4"
+          },
+          {
+            "type": "file",
+            "name": "12. Technical Indicator Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "2. Moving Averages.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Weighted Moving Average.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Exponential Moving Average.mp4"
+          },
+          {
+            "type": "file",
+            "name": "5. Using Moving Averages.mp4"
+          },
+          {
+            "type": "file",
+            "name": "6. Bollinger Bands.mp4"
+          },
+          {
+            "type": "file",
+            "name": "7. Introduction to Oscillators.mp4"
+          },
+          {
+            "type": "file",
+            "name": "8. Momentum Oscillators.mp4"
+          },
+          {
+            "type": "file",
+            "name": "9. Relative Strength Indicator.mp4"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "15. A Trading Pattern for all time frames & asset classes",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Characteristics of a Great Trading Pattern.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. The Trade Setup DNA.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Trade Setup Application to Dollar Index.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Trade Setup Application to Emerging Markets Index.mp4"
+          },
+          {
+            "type": "file",
+            "name": "5. What does the Trade Setup say for the Gold Prices in 2016.mp4"
+          },
+          {
+            "type": "file",
+            "name": "6. Ending Diagonal Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "7. Bonus Lecture More Resources for success in the stock market.html"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "16. Old Videos Stocks & Stock Market Basics",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Stock & Stock Market.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Who all trade in the stock market.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Why is Stock Market important.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Primary Markets.mp4"
+          },
+          {
+            "type": "file",
+            "name": "5. Secondary Markets - Where Stock Trading Happens.mp4"
+          },
+          {
+            "type": "file",
+            "name": "6. Who sets the price in the stock market.mp4"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "17. Old Videos Stock Exchanges, Financial Intermediaries & Stock Index",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Stock Exchanges - The place for Stock Trading.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Financial Intermediaries.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Securities & Stock Indices.mp4"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "18. Old Videos Queries on Stock Market Trading",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. How can I start trading in the stock market.mp4"
+          },
+          {
+            "type": "file",
+            "name": "10. Where can I find Stock Tips.mp4"
+          },
+          {
+            "type": "file",
+            "name": "11. What are Mutual Funds.mp4"
+          },
+          {
+            "type": "file",
+            "name": "12. What are Corporate Actions.mp4"
+          },
+          {
+            "type": "file",
+            "name": "13. What are the various dates associated with Corporate Actions.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. What is Bid Price & Offer Price What are different Order Types.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. How do I select a stock broker.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. What is Algorithmic Trading & Should I be doing it.mp4"
+          },
+          {
+            "type": "file",
+            "name": "5. How much money should I invest in the stock market.mp4"
+          },
+          {
+            "type": "file",
+            "name": "6. How much money should I invest in a particular stock.mp4"
+          },
+          {
+            "type": "file",
+            "name": "7. Should I trade using Futures & Options.mp4"
+          },
+          {
+            "type": "file",
+            "name": "8. What are Futures Contract.mp4"
+          },
+          {
+            "type": "file",
+            "name": "9. What are Options.mp4"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "2. Stock Exchanges, Financial Intermediaries & Stock Index",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Stock Exchanges.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Financial Intermediaries in Stock Trading.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Securities.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Stock Index.mp4"
+          },
+          {
+            "type": "file",
+            "name": "5. Stock Exchange Quiz.html"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "3. Queries on Stock Market Trading",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. How can I start trading in the stock market.mp4"
+          },
+          {
+            "type": "file",
+            "name": "10. How much money should you invest in a particular stock.mp4"
+          },
+          {
+            "type": "file",
+            "name": "11. Stock Market Trading Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "12. Should I trade using Futures & Options.mp4"
+          },
+          {
+            "type": "file",
+            "name": "13. What is a Futures Contract.mp4"
+          },
+          {
+            "type": "file",
+            "name": "14. What is an Options Contract.mp4"
+          },
+          {
+            "type": "file",
+            "name": "15. Futures & Options Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "16. Where do I find good stock market tips.mp4"
+          },
+          {
+            "type": "file",
+            "name": "17. Mutual Funds.mp4"
+          },
+          {
+            "type": "file",
+            "name": "18. Understanding Corporate Actions.mp4"
+          },
+          {
+            "type": "file",
+            "name": "19. Important Dates associated with corporate actions.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Bid Price & Offer Price.mp4"
+          },
+          {
+            "type": "file",
+            "name": "20. Stock Market Trading Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "3. Market Order & Limit Order.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Stop Loss Order Combinations.mp4"
+          },
+          {
+            "type": "file",
+            "name": "5. Stock Market Trading Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "6. Understanding practical trade execution options provided by brokers.mp4"
+          },
+          {
+            "type": "file",
+            "name": "7. How do I select a stock broker.mp4"
+          },
+          {
+            "type": "file",
+            "name": "8. What is Algorithmic Trading & Should I be doing it..mp4"
+          },
+          {
+            "type": "file",
+            "name": "9. How much money should you invest in the stock market.mp4"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "4. Understanding Financial Statements",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Financial Analysis of a Company.mp4"
+          },
+          {
+            "type": "file",
+            "name": "10. Note on Direct Method of Cash Flow Reporting.html"
+          },
+          {
+            "type": "file",
+            "name": "11. Cash Flow Statement Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "12. Cash Flow Statement Exercise.html"
+          },
+          {
+            "type": "file",
+            "name": "13. Understanding Financial Notes & Supplementary Schedules.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Understanding Balance Sheet & Current Assets & Current Liabiliites.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Understanding Balance Sheet Components Non Current Assets & Liabilities.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Understanding Balance Sheet Components Equity.mp4"
+          },
+          {
+            "type": "file",
+            "name": "5. Balance Sheet Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "6. Understanding Profit & Loss Statement.mp4"
+          },
+          {
+            "type": "file",
+            "name": "7. Income Statement Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "8. Understanding Statement of Changes in Equity.mp4"
+          },
+          {
+            "type": "file",
+            "name": "9. Understanding Cash Flow Statement.mp4"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "5. Common Size Analysis of Financial Statement",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Common Size Analysis of Balance Sheet.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Common Size Analysis of Income Statement.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Common Size Analysis of Cash Flow Statement.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Common Size Analysis Quiz.html"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "6. Financial Ratio Analysis",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Understanding Financial Ratios.mp4"
+          },
+          {
+            "type": "file",
+            "name": "10. Liquidity & Solvency Ratios Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "11. Profitability Ratios.mp4"
+          },
+          {
+            "type": "file",
+            "name": "12. Valuation Ratios.mp4"
+          },
+          {
+            "type": "file",
+            "name": "13. Profitability & Valuation Ratios Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "14. Using Ratios to select Stocks.html"
+          },
+          {
+            "type": "file",
+            "name": "2. Financial Ratios Quiz.html"
+          },
+          {
+            "type": "file",
+            "name": "3. Introduction to Activity Ratios.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Activity Ratios Part 2.mp4"
+          },
+          {
+            "type": "file",
+            "name": "5. Activity Ratios Part 3.mp4"
+          },
+          {
+            "type": "file",
+            "name": "6. Activity Ratios Exercise 1.html"
+          },
+          {
+            "type": "file",
+            "name": "7. Evaluation of Activity Ratio Case Study.html"
+          },
+          {
+            "type": "file",
+            "name": "8. Liquidity Ratios.mp4"
+          },
+          {
+            "type": "file",
+            "name": "9. Solvency Ratios.mp4"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "7. Benjamin Graham's Value Investing Strategy",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Benjamin Graham's Recommendation on Stock Selection.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Benjamin Graham's Quantitative Criteria for Stock Selection.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Graham's Number & Thoughts on Intrinsic Value.mp4"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "8. Introduction to Technical Analysis",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. What is Technical Analysis.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Principles & Assumptions Behind Technical Analysis.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Technical Analysis VS Fundamental Analysis.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Introduction to Technical Analysis Quiz.html"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "9. Introduction to Charts",
+        "contents": [
+          {
+            "type": "file",
+            "name": "1. Line Charts & Bar Charts.mp4"
+          },
+          {
+            "type": "file",
+            "name": "2. Introduction to Candlesticks Chart.mp4"
+          },
+          {
+            "type": "file",
+            "name": "3. Charting Considerations.mp4"
+          },
+          {
+            "type": "file",
+            "name": "4. Introduction to Charting Quiz.html"
+          }
+        ]
+      }
+    ]
+  }
+]
