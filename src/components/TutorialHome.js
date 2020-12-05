@@ -1,77 +1,45 @@
 import React, { useState, useEffect } from 'react'
 import { Button, Card, Accordion, Row, Col } from "react-bootstrap"
-import { useVideo } from "../contexts/VideoContext"
+// import { useVideo } from "../contexts/VideoContext"
 
 const data = require('./Data.json')
 
-
-// console.log('data', data[0].contents)
-
-
-
-
-
-
-
 export default function TutorialHome() {
-
-
-
-
     const [chapter, setChapter] = useState('Stock Trading for Beginners')
 
-    useEffect(() => {
-        console.log('chapter updated')
 
+    useEffect(() => {
     }, [chapter]);
 
-    const showSections = (section) => {
-
-        console.log('heading', section)
+    function showSections(section, contents, key) {
         setChapter(section)
-    }
 
-    const SectionsList = (list) => {
-        return (
-            <Card.Text>
-                {list}
-            </Card.Text>
-        )
-    }
-    const CardChapter = (chapter, contents, key) => {
-
-
-
-
+        let ul = document.getElementById(key)
         contents.map(content => {
-            // console.log(content.name)
-            const { name } = content
-            console.log('name', name)
+            let stringName = content.name.substring(0, content.name.lastIndexOf('.')) || content.name
+            let li = document.createElement("li");
+            let newAnchor = document.createElement("a")
+            newAnchor.textContent = stringName
+            newAnchor.setAttribute("href", "../" + content.name)
+            li.appendChild(newAnchor)
+            ul.appendChild(li);
         })
+    }
 
 
-
+    const CardChapter = (chapter, contents, key) => {
         return (
             <Accordion defaultActiveKey="1" key={key}>
                 <Card.Header className="justify-con" style={{ backgroundColor: "white", padding: 0, alignItems: "left" }}>
-                    <Accordion.Toggle as={Button} onClick={() => showSections(chapter)} variant="link" eventKey="0" style={{ color: "black", textAlign: "left", justifyContent: "center" }}>
+                    <Accordion.Toggle as={Button} onClick={() => showSections(chapter, contents, key)} variant="link" eventKey="0" style={{ color: "black", textAlign: "left", justifyContent: "center" }}>
                         {chapter}
                     </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
                     <Card.Text>
+                        <ul id={key}></ul>
                         Hello! I'm the body
                     </Card.Text>
-                    {
-
-                        // contents.map(content => {
-                        //     console.log('content', content)
-                        // })
-                        // contents.map(list => {
-                        //     SectionsList(list)
-                        // })
-
-                    }
                 </Accordion.Collapse>
             </Accordion>
         )
@@ -88,22 +56,7 @@ export default function TutorialHome() {
                     <Card.Header>
                         <h4 className="text-center mb-1">Course Content</h4>
                     </Card.Header>
-
-                    {/* {chapters.map((chapter, key) => CardChapter(chapter, key))} */}
-                    {/* {
-                        data[0].contents.map(content => {
-
-                            let { contents } = content
-                            console.log('content', contents)
-                            // console.log('content', content.contents)
-
-                        })} */}
-                    {
-
-                        data[0].contents.map((content, index) => CardChapter(content.name, content.contents, index))
-                    }
-
-
+                    {data[0].contents.map((content, index) => CardChapter(content.name, content.contents, index))}
                 </Card>
             </Col>
         </Row>
