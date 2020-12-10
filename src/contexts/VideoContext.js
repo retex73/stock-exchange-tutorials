@@ -8,12 +8,9 @@ export function useVideo() {
 }
 
 
-
-
-
-
 export function VideoProvider({ children }) {
-    const [currentVideo, setCurrentVideo] = useState()
+    const [videoName, setVideoName] = useState()
+    const [chapter, setChapter] = useState()
     const [loading, setLoading] = useState(true)
 
 
@@ -23,11 +20,22 @@ export function VideoProvider({ children }) {
         console.log('section', section)
     }
 
+    function setVideo(name) {
+        setVideoName(name)
+        return name
+    }
+
+    function getVideoName() {
+        return videoName
+    }
+
 
 
 
     const value = {
-        doSomething
+        doSomething,
+        setVideo,
+        getVideoName
     }
 
     return (

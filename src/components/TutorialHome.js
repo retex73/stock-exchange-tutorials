@@ -1,17 +1,21 @@
 import React, { useState, useEffect } from 'react'
 import { Button, Card, Accordion, Row, Col } from "react-bootstrap"
-// import { useVideo } from "../contexts/VideoContext"
+import Video from "./Video"
+import { useVideo } from "../contexts/VideoContext"
+
+
 
 const data = require('./Data.json')
 
 export default function TutorialHome() {
     const [chapter, setChapter] = useState('Stock Trading for Beginners')
+    const { setVideo } = useVideo()
 
 
     useEffect(() => {
     }, [chapter]);
 
-    function showSections(section, contents, key) {
+    function showSections(section, contents, key, setVideo) {
         setChapter(section)
 
         let ul = document.getElementById(key)
@@ -21,6 +25,10 @@ export default function TutorialHome() {
             let newAnchor = document.createElement("a")
             newAnchor.textContent = stringName
             newAnchor.setAttribute("href", "../" + content.name)
+            li.addEventListener("click", function (e) {
+                e.preventDefault()
+                setVideo(content.name)
+            })
             li.appendChild(newAnchor)
             ul.appendChild(li);
         })
@@ -31,7 +39,7 @@ export default function TutorialHome() {
         return (
             <Accordion defaultActiveKey="1" key={key}>
                 <Card.Header className="justify-con" style={{ backgroundColor: "white", padding: 0, alignItems: "left" }}>
-                    <Accordion.Toggle as={Button} onClick={() => showSections(chapter, contents, key)} variant="link" eventKey="0" style={{ color: "black", textAlign: "left", justifyContent: "center" }}>
+                    <Accordion.Toggle as={Button} onClick={() => showSections(chapter, contents, key, setVideo)} variant="link" eventKey="0" style={{ color: "black", textAlign: "left", justifyContent: "center" }}>
                         {chapter}
                     </Accordion.Toggle>
                 </Card.Header>
@@ -49,14 +57,20 @@ export default function TutorialHome() {
     return (
         <Row>
             <Col className="col-9">
-                <h2>{chapter}</h2>
+                <Row>
+                    <h2>{chapter}</h2>
+                </Row>
+                <Row>
+                    <Video chapter={chapter}></Video>
+                </Row>
+
             </Col>
             <Col>
                 <Card>
                     <Card.Header>
                         <h4 className="text-center mb-1">Course Content</h4>
                     </Card.Header>
-                    {data[0].contents.map((content, index) => CardChapter(content.name, content.contents, index))}
+                    {data[0].contents.map((content, key) => CardChapter(content.name, content.contents, key))}
                 </Card>
             </Col>
         </Row>
