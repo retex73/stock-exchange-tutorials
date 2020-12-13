@@ -3,6 +3,7 @@ import React, { useContext, useState } from "react"
 
 const VideoContext = React.createContext()
 
+
 export function useVideo() {
     return useContext(VideoContext)
 }
@@ -10,8 +11,7 @@ export function useVideo() {
 
 export function VideoProvider({ children }) {
     const [videoName, setVideoName] = useState()
-    const [chapter, setChapter] = useState()
-    const [loading, setLoading] = useState(true)
+
 
 
 

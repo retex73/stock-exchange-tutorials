@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useVideo } from "../contexts/VideoContext"
 import ReactPlayer from 'react-player'
 
@@ -25,7 +25,7 @@ export default function Video(chapter) {
                 <ReactPlayer
                     url={mediaUrl}
                     controls={true}
-                    playing={true}
+                    playing={false}
                 />) : (
                     <div>No video selected</div>
                 )

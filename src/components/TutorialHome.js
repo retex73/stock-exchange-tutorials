@@ -1,19 +1,13 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Button, Card, Accordion, Row, Col } from "react-bootstrap"
 import Video from "./Video"
 import { useVideo } from "../contexts/VideoContext"
-
-
 
 const data = require('./Data.json')
 
 export default function TutorialHome() {
     const [chapter, setChapter] = useState('Stock Trading for Beginners')
     const { setVideo } = useVideo()
-
-
-    useEffect(() => {
-    }, [chapter]);
 
     function showSections(section, contents, key, setVideo) {
         setChapter(section)
@@ -39,14 +33,19 @@ export default function TutorialHome() {
         return (
             <Accordion defaultActiveKey="1" key={key}>
                 <Card.Header className="justify-con" style={{ backgroundColor: "white", padding: 0, alignItems: "left" }}>
-                    <Accordion.Toggle as={Button} onClick={() => showSections(chapter, contents, key, setVideo)} variant="link" eventKey="0" style={{ color: "black", textAlign: "left", justifyContent: "center" }}>
+                    <Accordion.Toggle
+                        as={Button}
+                        onClick={() => showSections(chapter, contents, key, setVideo)}
+                        variant="link"
+                        eventKey="0"
+                        style={{ color: "black", textAlign: "left", justifyContent: "center" }
+                        }>
                         {chapter}
                     </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
                     <Card.Text>
                         <ul id={key}></ul>
-                        Hello! I'm the body
                     </Card.Text>
                 </Accordion.Collapse>
             </Accordion>
@@ -55,6 +54,7 @@ export default function TutorialHome() {
 
 
     return (
+
         <Row>
             <Col className="col-9">
                 <Row>
@@ -63,7 +63,6 @@ export default function TutorialHome() {
                 <Row>
                     <Video chapter={chapter}></Video>
                 </Row>
-
             </Col>
             <Col>
                 <Card>
@@ -74,6 +73,5 @@ export default function TutorialHome() {
                 </Card>
             </Col>
         </Row>
-
     )
 }
