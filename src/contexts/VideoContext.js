@@ -8,17 +8,10 @@ export function useVideo() {
     return useContext(VideoContext)
 }
 
-
 export function VideoProvider({ children }) {
     const [videoName, setVideoName] = useState()
-
-
-
-
-
-    function doSomething(section) {
-        console.log('section', section)
-    }
+    const [chapterName, setChapterName] = useState()
+    const [data, setData] = useState()
 
     function setVideo(name) {
         setVideoName(name)
@@ -29,13 +22,23 @@ export function VideoProvider({ children }) {
         return videoName
     }
 
+    function setChapterX(name) {
+        setChapterName(name)
+    }
+
+    function getChapterName() {
+        return chapterName
+    }
 
 
 
     const value = {
-        doSomething,
         setVideo,
-        getVideoName
+        getVideoName,
+        setChapterX,
+        getChapterName,
+        data,
+        setData
     }
 
     return (
